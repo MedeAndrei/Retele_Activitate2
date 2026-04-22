@@ -19,6 +19,7 @@ mesaje = {}
 # generator simplu de ID-uri unice
 id_curent = 1
 
+
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 server_socket.bind((HOST, PORT))
 
