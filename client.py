@@ -10,7 +10,6 @@ client_socket.settimeout(TIMEOUT)
 
 este_conectat = False
 
-
 def trimite_comanda(mesaj: str) -> str:
     try:
         client_socket.sendto(mesaj.encode("utf-8"), (SERVER_HOST, SERVER_PORT))
